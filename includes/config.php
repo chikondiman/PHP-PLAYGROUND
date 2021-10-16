@@ -8,7 +8,7 @@
 function config($key = '')
 {
     $config = [
-        'name' => 'Hot Shot',
+        'name' => 'Hot Shot$',
         'site_url' => '',
         'pretty_uri' => false,
         'nav_menu' => [
