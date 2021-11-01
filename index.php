@@ -1,12 +1,9 @@
 <!DOCTYPE html>
 <html>
 <body>
-
-
 <?php
-echo "Hello World!";
-?>
-
-
+$a = "www.studentstutorial.com";
+echo " $a is a PHP Tutorial";
+? >
 </body>
 </html>
