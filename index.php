@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html>
 <body>
-<?php
+<?php $a = 10; // global scope
 function myTest() {
-$a = 10; // local scope
+// using a inside this function will generate an error
 echo "<p>Variable a inside function is: $a</p>";
 }
 myTest();
-// using x outside the function will generate an error
 echo "<p>Variable a outside function is: $a</p>";
 ? >
-</body>
 </html>
