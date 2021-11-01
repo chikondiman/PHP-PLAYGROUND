@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html>
-	<body>
-	<?PHP
-		echo "PHP", "is", "one ", "of", "the","easiest","internet","technology.";
-	?>
-	</body>
-	 </html>
+<body>
+<?php
+$a = 20;
+$b= 10;
+echo $a + $b;
+
+? >
+
+</body>
+</html>
