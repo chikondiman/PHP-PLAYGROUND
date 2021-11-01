@@ -2,8 +2,7 @@
 <html>
 	<body>
 	<?PHP
-		echo "<h1>studentstutorial.com</h1>";
-		echo "welcome to PHP world <br>";
+		echo "PHP", "is", "one ", "of", "the","easiest","internet","technology.";
 	?>
 	</body>
-	</html>
+	 </html>
