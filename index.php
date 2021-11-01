@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <body>
-<?php
+<?PHP
 $a = 20;
 $b= 10;
 echo $a + $b;
