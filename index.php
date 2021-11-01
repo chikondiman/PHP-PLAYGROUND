@@ -2,14 +2,12 @@
 <html>
 <body>
 <?php
-function myTest() {
-$a = 10; // local scope
-echo "<p>Variable a inside function is: $a</p>";
+$a=1;
+while ($a<=10)
+{
+echo $a;
+$a++;
 }
-myTest();
-// using x outside the function will generate an error
-echo "<p>Variable a outside function is: $a</p>";
-
-? >
+?>
 </body>
 </html>
