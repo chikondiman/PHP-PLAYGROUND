@@ -3,8 +3,8 @@
 <body>
 <?php
 
-function sayNiceThings(){
-    
+function sayNiceThings($name){
+
 }
 $a=1;
 while ($a<=10)
