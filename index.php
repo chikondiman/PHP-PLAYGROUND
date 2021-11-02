@@ -11,7 +11,7 @@ return $name . ", you're so freaking great! " . "and" . $name . "I love you're h
 $a=0;
 while ($a<=10)
 {
-echo sayNiceThings($name = "chik");
+echo sayNiceThings($name = "jay");
 $a++;
 }
 ?>
