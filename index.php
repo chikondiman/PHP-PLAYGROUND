@@ -4,7 +4,7 @@
 <?php
 
 function sayNiceThings($name){
-
+return $name . ", you're so freaking great!"
 }
 $a=1;
 while ($a<=10)
