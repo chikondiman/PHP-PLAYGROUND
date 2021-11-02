@@ -2,6 +2,10 @@
 <html>
 <body>
 <?php
+
+function sayNiceThings(){
+    
+}
 $a=1;
 while ($a<=10)
 {
