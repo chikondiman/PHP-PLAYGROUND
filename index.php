@@ -8,7 +8,7 @@ function sayNiceThings($name){
 return $name . ", you're so freaking great! " . "and" . $name . "I love you're hair";
 }
 
-$a=1;
+$a=0;
 while ($a<=10)
 {
 echo sayNiceThings($name = "chik");
