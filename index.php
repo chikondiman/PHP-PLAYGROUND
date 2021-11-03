@@ -1,18 +1,17 @@
-<!DOCTYPE html>
 <html>
 <body>
-<form method="get">
-Country:
-<input type="text">
+<form method="post">
+Favorite Color:
+<input type="text" name="color">
 <br>
-Language:
-<input type="text">
+Favorite Food:
+<input type="text" name="food">
 <br>
 <input type="submit" value="Submit">
 </form>
 <br>
-<p>Your language is: <!--Add step 3 code here--></p>
-<p>Your country is: <!--Add step 3 code here--></p>
+<p>Best food is: <?=$_POST['food'];?></p>
+<p>Best color is: <?=$_POST['color'];?></p>
 <a href="index.php">Reset</a>
 </body>
 </html>
