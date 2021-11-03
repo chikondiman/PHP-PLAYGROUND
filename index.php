@@ -1,17 +1,15 @@
 <html>
 <body>
-<form method="post">
-Favorite Color:
-<input type="text" name="color">
+<form method="get" action="greet_user.php">
+First Name:
+<input type="text" name="first">
 <br>
-Favorite Food:
-<input type="text" name="food">
+Last Name:
+<input type="text" name="last">
 <br>
 <input type="submit" value="Submit">
 </form>
-<br>
-<p>Best food is: <?=$_POST['food'];?></p>
-<p>Best color is: <?=$_POST['color'];?></p>
+
 <a href="index.php">Reset</a>
 </body>
 </html>
