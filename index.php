@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html>
 <body>
-<?php
-
-function sayNiceThings($name){
-return $name . ", you're so  great! &" . $name . ",I love you're hair so much!";
-}
-
-$a=0;
-while ($a<=10)
-{
-echo sayNiceThings($name = "jayla");
-$a++;
-}
-?>
+<form method="get">
+Country:
+<input type="text">
+<br>
+Language:
+<input type="text">
+<br>
+<input type="submit" value="Submit">
+</form>
+<br>
+<p>Your language is: <!--Add step 3 code here--></p>
+<p>Your country is: <!--Add step 3 code here--></p>
+<a href="index.php">Reset</a>
 </body>
 </html>
