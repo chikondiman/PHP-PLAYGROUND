@@ -4,7 +4,7 @@
 <?php
 
 function sayNiceThings($name){
-return $name . ", you're so freaking great! &" . $name . ",I love you're hair so much!";
+return $name . ", you're so  great! &" . $name . ",I love you're hair so much!";
 }
 
 $a=0;
