@@ -1,8 +1,8 @@
-<html>
-<body>
-<p>Thanks!</p>
-<p>Your name has been recorded as:</p>
-<p> <?= $_GET . "Chik Kam"?></p>
-<a href="index.php">Reset</a>
-</body>
-</html>
+<?php
+namespace Codecademy;
+
+$learner_one = ["is_correct"=>FALSE, "box"=>["shape"=>"none", "color"=>"none"]];
+   
+$learner_two = ["is_correct"=>TRUE, "box"=>["shape"=>"none", "color"=>"none"]];
+  
+  
