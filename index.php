@@ -9,3 +9,6 @@ function agreeOrDisagree($string1,$string2){
     return "You disagree!";
   }
 }
+
+echo agreeOrDisagree("not","there");
+echo agreeOrDisagree("not","not");
