@@ -1,28 +1,33 @@
 <?php
-namespace Codecademy;
 
-function agreeOrDisagree($string1,$string2){
-  if ($string1 === $string2){
-    return "You agree!";
-  }
-  else{
-    return "You disagree!";
-  }
+
+function whatRelation ($percentSharedDNA)
+{
+ if ($percentSharedDNA === 100){
+   echo "identical twins";
+ } elseif ($percentSharedDNA > 34){
+   echo "parent and child or full siblings";
+ } elseif ($percentSharedDNA > 13){
+   echo "grandparent and grandchild, aunt/uncle and niece/nephew, or half siblings";
+ }  elseif ($percentSharedDNA > 5) {
+   echo "first cousins";
+ } elseif ($percentSharedDNA > 2){
+   echo "second cousins";
+ } elseif ($percentSharedDNA > 0){
+   echo "third cousins";
+ } else {
+   echo "not genetically related";
+ }
 }
 
-echo agreeOrDisagree("not","there");
-echo agreeOrDisagree("not","not");
-
-function checkRenewalMonth($renewalMonth){
-  if (date("F") !==     $renewalMonth)
-  {
-  return "Welcome!";
-}
-else {
-  return "Time to renew";
-}
-}
-
-echo checkRenewalMonth("January");
-
-echo checkRenewalMonth("November");
+whatRelation(100);
+echo "\n\n";
+whatRelation(56);
+echo "\n\n";
+whatRelation(18);
+echo "\n\n";
+whatRelation(10);
+echo "\n\n";
+whatRelation(3);
+echo "\n\n";
+whatRelation(1);
