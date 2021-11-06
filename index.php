@@ -6,7 +6,7 @@ function whatRelation ($percentSharedDNA)
  if ($percentSharedDNA === 100){
    echo "identical twins";
  } elseif ($percentSharedDNA > 82){
-   echo "parent and child or full siblings";
+   echo "parent & child or full siblings";
  } elseif ($percentSharedDNA > 13){
    echo "grandparent and grandchild, aunt/uncle and niece/nephew, or half siblings";
  }  elseif ($percentSharedDNA > 5) {
