@@ -1,33 +1,26 @@
 <?php
 
 
-function whatRelation ($percentSharedDNA)
-{
- if ($percentSharedDNA === 100){
-   echo "identical twins";
- } elseif ($percentSharedDNA > 82){
-   echo "parent & child or full siblings";
- } elseif ($percentSharedDNA > 13){
-   echo "grandparent & grandchild, aunt/uncle and niece/nephew or half siblings";
- }  elseif ($percentSharedDNA > 5) {
-   echo "first cousins";
- } elseif ($percentSharedDNA > 2){
-   echo "second cousins";
- } elseif ($percentSharedDNA > 0){
-   echo "third cousins";
- } else {
-   echo "not genetically related";
- }
+function returnSeason($month){
+switch($month)
+  case "January":
+  case "December":
+  case "February":
+    echo "winter";
+    break;
+  case "March":
+  case "April":
+  case "May":
+    echo "spring";
+    break;
+  case "June":
+  case "July":
+  case "August":
+    echo "summer";
+    break;
+  case "September":
+  case "October":
+  case "November":
+    echo "fall";
+    break;
 }
-
-whatRelation(100);
-echo "\n\n";
-whatRelation(56);
-echo "\n\n";
-whatRelation(18);
-echo "\n\n";
-whatRelation(10);
-echo "\n\n";
-whatRelation(3);
-echo "\n\n";
-whatRelation(1);
