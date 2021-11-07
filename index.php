@@ -24,3 +24,10 @@ switch($month)
     echo "fall";
     break;
 }
+
+$isClicked = FALSE;
+if ( $isClicked ) {
+  $link_color = "purple";
+} else {
+  $link_color = "blue";
+}
