@@ -11,7 +11,7 @@ function whatRelation ($percentSharedDNA)
    echo "grandparent & grandchild, aunt/uncle and niece/nephew or half siblings";
  }  elseif ($percentSharedDNA > 5) {
    echo "first cousins";
- } elseif ($percentSharedDNA > 5){
+ } elseif ($percentSharedDNA > 2){
    echo "second cousins";
  } elseif ($percentSharedDNA > 0){
    echo "third cousins";
