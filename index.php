@@ -27,14 +27,14 @@ switch($month)
 
 $isClicked = FALSE;
 if ( $isClicked ) {
-  $link_color = "purple";
+  $link_color = "red";
 } else {
-  $link_color = "blue";
+  $link_color = "white";
 }
 
 
 <?php
-namespace Codecademy;
+
 
 function ternaryCheckout($items)
 {
@@ -92,7 +92,6 @@ echo truthyOrFalsy("0");
 echo "\n\n";
 
 <?php
-namespace Codecademy;
 
 echo "Hello, there. What's your first name?\n";  
 
