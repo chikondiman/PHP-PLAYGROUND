@@ -11,7 +11,7 @@ switch($month)
   case "March":
   case "April":
   case "May":
-    echo "Spring!";
+    echo "Spring";
     break;
   case "June":
   case "July":
