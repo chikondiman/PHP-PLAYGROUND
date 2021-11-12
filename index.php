@@ -27,7 +27,7 @@ switch($month)
 
 $isClicked = FALSE;
 if ( $isClicked ) {
-  $link_color = "purple";
+  $link_color = "white";
 } else {
   $link_color = "white";
 }
