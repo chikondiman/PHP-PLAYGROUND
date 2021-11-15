@@ -13,7 +13,7 @@ switch($month)
   case "May":
     echo "Spring";
     break;
-  case "June":
+  case "Juni":
   case "July":
   case "August":
     echo "summer";
