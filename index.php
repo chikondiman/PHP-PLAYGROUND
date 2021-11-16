@@ -29,7 +29,7 @@ $isClicked = FALSE;
 if ( $isClicked ) {
   $link_color = "aqua";
 } else {
-  $link_color = "white";
+  $link_color = "gold";
 }
 
 
